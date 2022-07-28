@@ -3,13 +3,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>7</version>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.2.7.RELEASE</version>
-    </parent>
+        <groupId>org.sonatype.oss
+                 org.springframework.boot
+             </groupId>
+        <artifactId>oss-parent
+                 spring-boot-starter-parent
+             </artifactId>
+        <version>7
+                 1.2.7.RELEASE
+             </version>
+   </parent>
 
     <properties>
         <revision>0.2.12</revision>
