@@ -7,6 +7,13 @@
         <artifactId>oss-parent</artifactId>
         <version>7</version>
     </parent>
+         
+    <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>1.2.7.RELEASE</version>
+ </parent>
+
     <properties>
         <revision>0.2.12</revision>
         <maven_javadoc_version>3.0.1</maven_javadoc_version>
@@ -162,5 +169,17 @@
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </distributionManagement>
-
-</project>
+        <repositories>
+    <repository>
+        <id>spring-releases</id>
+        <url>https://repo.spring.io/libs-release</url>
+    </repository>
+</repositories>
+<pluginRepositories>
+    <pluginRepository>
+        <id>spring-releases</id>
+        <url>https://repo.spring.io/libs-release</url>
+    </pluginRepository>
+</pluginRepositories>
+ 
+ </project>
